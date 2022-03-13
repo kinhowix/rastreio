@@ -46,7 +46,7 @@ header {
   max-width: 1170px;
   margin: auto;
   padding: 35px;
-  height: 800px;
+  height: calc(100vh - 130px);
 }
 
 .container-img {
