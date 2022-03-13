@@ -49,13 +49,31 @@ header {
   height: calc(100vh - 130px);
 }
 
+@media screen and (max-width: 500px) {
+  .container {
+    display: block;   
+  }
+}
+
 .container-img {
   width: 80%;
+}
+
+@media screen and (max-width: 500px) {
+  .container-img {
+    margin: 40px auto;
+  }
 }
 
 
 .img {
   width: 80%;
+}
+
+@media screen and (max-width: 500px) {
+  .img {
+    padding-left: 40px;   
+  }
 }
 
 .container-content {
