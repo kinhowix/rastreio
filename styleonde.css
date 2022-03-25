@@ -1,6 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #231c78;
 }
+header {
+  padding: 0 15px 0 15px;
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 90px;
+  border-bottom: 1px solid #fff;
+}
+
 .header,
 h1 {
   color: white;
@@ -13,17 +30,81 @@ h1 {
   margin-bottom: 20px;
 }
 .button {
-  margin: 30px;
-  margin-left: 400px;
+  margin-left: 180px;
   text-decoration: none;
   color: #231c78;
   background-color: rgb(187, 182, 175);
-  height: 50px;
-  width: 120px;
   border-style: outset;
-  font: bold 24px arial, 'Roboto Slab', serif;
+  font: bold 32px arial, 'Roboto Slab', serif;
+  text-align: center;
+  width: 290px;
+  height: 70px;
+  margin: 35px;
+  border-radius: 10px 20px;
 }
 .button:hover {
   color: rgb(248, 248, 248);
   background-color: #474a51;
+}
+.img {
+  width: 80%;
+}
+.logo-paris {
+  width: 170px;
+}
+
+.adm-btn {
+  text-decoration: none;
+  text-align: center;
+  color: #231c78;
+  background-color: rgb(187, 182, 175);
+  height: 35px;
+  width: 100px;
+  border-style: outset;
+  font: bold 24px arial, 'Roboto Slab', serif;
+  border-radius: 10px 20px;
+}
+
+.adm-btn:hover {
+  color: rgb(248, 248, 248);
+  background-color: #474a51;
+}
+
+.container {
+  display: inline;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin-top: 250px;
+  padding: 70px;
+  height: calc(100vh - 130px);
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: block;
+  }
+}
+
+.container-img {
+  width: 80%;
+}
+
+@media screen and (max-width: 500px) {
+  .container-img {
+    margin: 40px auto;
+  }
+}
+
+.img {
+  width: 80%;
+}
+
+@media screen and (max-width: 500px) {
+  .img {
+    padding-left: 40px;
+  }
+}
+
+.container-content {
+  display: grid;
 }
