@@ -1,28 +1,32 @@
 <!DOCTYPE html>
+<header>
+  <img class='logo-paris' src="assets/imagens/Design sem nome.png">
+  
+</header>
 <head>
   <meta charset="UTF-8" />
   <title>Formulário de Login e Registro com HTML5 e CSS3</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="stylelogin.css" />
 </head>
 <body>
   <div class="container" >
     <a class="links" id="paracadastro"></a>
     <a class="links" id="paralogin"></a>
      
-    <div class="content">      
+      
       <!--FORMULÁRIO DE LOGIN-->
       <div id="login">
         <form method="post" action=""> 
-          <h1>Login</h1> 
+          <h1 class="text">Login</h1> 
           <p> 
-            <label for="nome_login">Seu nome</label>
-            <input id="nome_login" name="nome_login"  type="text" placeholder="ex. contato@htmlecsspro.com"/>
+            <label class="text" for="nome_login">Seu nome</label>
+            <input id="nome_login" name="nome_login"  type="text" placeholder="ex. contato@oticasparissul.com"/>
           </p>
            
           <p> 
-            <label for="email_login">Seu e-mail</label>
-            <input id="email_login" name="email_login"  type="password" placeholder="ex. senha" /> 
+            <label class="text" for="email_login">Seu e-mail</label>
+            <input id="email_login" name="email_login"  type="password" placeholder="ex. senha1234" /> 
           </p>
            
           <p> 
@@ -30,8 +34,7 @@
             <label for="manterlogado">Manter-me logado</label>
           </p>
            
-                <a
-      class="button"
+      <a class="button"
       href="http://127.0.0.1:5500/escolha.html"
       target="_self"
       >Logar</a>
@@ -40,6 +43,9 @@
           
         </form>
       </div>
- 
      
+    </body>  
 </html>
+<footer class="footer">
+  Feito por Meyck Wilson Jr Corp. 2022
+</footer>
