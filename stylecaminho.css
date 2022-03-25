@@ -40,8 +40,8 @@ body {
     font: bold 24px arial, 'Roboto Slab', serif;
   }
   .button:hover {
-    color: aquamarine;
-    background-color: blueviolet;
+    color: rgb(248, 248, 248);
+    background-color: #474a51;
   }
   .laboratorio{
       margin-left: 150px;
