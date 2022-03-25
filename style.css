@@ -29,9 +29,10 @@ header {
   color: #231c78;
   background-color: rgb(187, 182, 175);
   height: 35px;
-  width: 300px;
+  width: 100px;
   border-style: outset;
   font: bold 24px arial, 'Roboto Slab', serif;
+  border-radius: 10px 20px;
 }
 
 .adm-btn:hover {
@@ -86,8 +87,10 @@ header {
   border-style: outset;
   font: bold 24px arial, 'Roboto Slab', serif;
   text-align: center;
-  width: 150px;
+  width: 180px;
+  height: 35px;
   margin: 35px auto;
+  border-radius: 10px 20px;
 }
 
 .bora-btn:hover {
