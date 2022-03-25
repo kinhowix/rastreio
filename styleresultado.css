@@ -30,7 +30,6 @@ p {
   margin-left: 15rem;
 }
 .button {
-  justify-content: space-between;
   align-items: center;
   margin-top: 200px;
   margin-left: 800px;
@@ -44,4 +43,7 @@ p {
   height: 35px;
   margin: 35px auto;
   border-radius: 10px 20px;
+}
+.footer {
+  margin-left: 90px;
 }
